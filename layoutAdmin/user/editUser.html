@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit User</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.15.11/css/uikit.min.css" />
+</head>
+<body>
+    <div class="uk-container uk-margin-top">
+        <h1 class="uk-heading-line"><span>Edit User</span></h1>
+
+        <form class="uk-form-stacked">
+            <div class="uk-margin">
+                <label class="uk-form-label" for="user-name">Name</label>
+                <div class="uk-form-controls">
+                    <input class="uk-input" id="user-name" type="text" value="Existing User Name">
+                </div>
+            </div>
+
+            <div class="uk-margin">
+                <label class="uk-form-label" for="user-email">Email</label>
+                <div class="uk-form-controls">
+                    <input class="uk-input" id="user-email" type="email" value="user@example.com">
+                </div>
+            </div>
+
+            <div class="uk-margin">
+                <label class="uk-form-label" for="user-role">Role</label>
+                <div class="uk-form-controls">
+                    <select class="uk-select" id="user-role">
+                        <option>Admin</option>
+                        <option selected>User</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="uk-margin">
+                <label class="uk-form-label" for="user-status">Status</label>
+                <div class="uk-form-controls">
+                    <select class="uk-select" id="user-status">
+                        <option>Active</option>
+                        <option>Inactive</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="uk-margin">
+                <button class="uk-button uk-button-primary" type="submit">Update</button>
+                <a class="uk-button uk-button-default" href="user-management.html">Cancel</a>
+            </div>
+        </form
+</div>   
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.15.11/js/uikit.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.15.11/js/uikit-icons.min.js"></script>
+    </body>
+    </html>
